@@ -14,7 +14,7 @@ ReddUX uses new json api features of reddit redesign to catch and filter posts i
 * Hides posts after you upvote it in feed.
   * Workaround: open post and then upvote it
 * Hides read posts in user's profiles
-* RAM consumption: when hiding read posts i'm removing post from DOM entirely, but it seems like there's some copy of it, maybe some kind of shadow DOM.
+* RAM consumption: when hiding read posts i'm removing post from DOM entirely, but it seems like there's some copy of it
   * Should be fixed when I'll have time to debug reddit's internal scripts
   
 ## Installation
